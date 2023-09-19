@@ -1,0 +1,61 @@
+:q
+:build
+:q
+:build
+:run
+:q
+:run
+ls
+:mod code
+cmake -G Ninja
+pwd
+pw
+:mod sh
+pwd
+:ls
+:run
+:q
+:q
+:ls
+:pb
+:dfb 1
+:pb
+:mv 7 10
+:pb
+:ls
+:ls
+:run
+:run 
+:ls
+:exe
+:exe
+:exe
+:run
+:run
+:next 7
+m1.geneMat(200);
+:hsc geneM
+:run
+:app
+m2.print();
+mat m2 = m1 * m1 * m1;
+mat m1(10, 10);
+:ls
+:run
+:run
+:ls
+:q
+:run
+:ls
+:ls
+:dl 4 6
+:ls
+:get 0
+:pb
+:ls
+:run 
+:ls 
+:ls
+:ls
+:ls
+:q
