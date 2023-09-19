@@ -1,4 +1,9 @@
 :q
+:ls
+:q
+:ls
+:ls
+:q
 :q
 :q
 :run
@@ -90,11 +95,6 @@ printf("ok");
 :q
 :q
 :q
-:q
-:q
-:q
-:ls
-vector<vector<float>> vv = {{1, 2, 3}, {4, 5, 6}};
 :q
 :q
 :q

@@ -57,9 +57,9 @@ if [[ "$#" -eq 1 ]];then
     
     # KEY: build only
     if [[ "$1" == 'c' ]]; then 
-	    stack build haskell-cpp-repel 
+	    stack build haskell-cpp-repl 
         printcText 'Build only'
     fi
 else
-    stack build haskell-cpp-repel && stack exec haskell-cpp-repel 
+    stack build haskell-cpp-repl && stack exec haskell-cpp-repl 
 fi
